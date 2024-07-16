@@ -61,6 +61,6 @@
       nix-ld = final.callPackage ./package.nix { };
     };
 
-    nixosModules.nix-ld = import ./modules/nix-ld.nix {};
+    nixosModules.nix-ld = import ./modules/nix-ld.nix;
   };
 }
